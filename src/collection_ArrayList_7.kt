@@ -10,10 +10,22 @@ fun main(args: Array<String>)
     //var
     //mutable variable
     //the values of this variable can be changed in later stage of the program
-    println("print int ArrayList")
+    println("print intArrayList")
     println(intArrayList)
     //traversal of ArrayList
     for(element in intArrayList)
+    {
+        println(element)
+    }
+    println("print the stringArrayList")
+    println(stringArrayList)
+    for(element in stringArrayList)
+    {
+        println(element)
+    }
+    println("print the anyArrayList")
+    println(anyArrayList)
+    for(element in anyArrayList)
     {
         println(element)
     }

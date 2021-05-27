@@ -1,5 +1,5 @@
 //normal function
-//addition of two numbers
+//addition_1 of two numbers
 fun main(args:Array<String>)
 {
     addNumber(100,200)
